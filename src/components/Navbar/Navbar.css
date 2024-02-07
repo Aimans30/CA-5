@@ -10,8 +10,7 @@
   gap: 0.4rem;
   align-items: center;
   text-decoration: none;
-  
-  
+  font-weight: 1000; /* Change font weight to 1000 */
 }
 
 .navbar-logo img {
@@ -25,7 +24,6 @@
   margin-top: 0.15rem;
   color: #ef3837;
   font-family: 'Roboto Black', sans-serif;
-  
 }
 
 .navbar-search-container {
@@ -34,8 +32,6 @@
   align-items: center; 
   width: 100%;
   gap: 0.75rem;
-  
-  
 }
 
 .navbar-search-input,

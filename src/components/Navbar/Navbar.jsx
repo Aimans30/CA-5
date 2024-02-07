@@ -29,8 +29,7 @@ function Navbar() {
   return (
     <nav className="navbar-container">
       <Link to="/" className="navbar-logo" onClick={() => setSearchQuery("")}>
-        <img src="./logo.svg" alt="" />
-        <span>Books</span>
+        <span>KALVIUM Books</span>
       </Link>
       <form className="navbar-search-container" onSubmit={handleSearch}>
         <input
