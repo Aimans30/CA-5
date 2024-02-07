@@ -1,0 +1,90 @@
+.container {
+  padding: 4rem;
+  min-height: 50vh;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.query {
+  color: var(--accent);
+}
+
+.status {
+  font-size: 1.2rem;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.book {
+  flex: 0 0 calc(33.33% - 1rem); 
+  padding: 1rem;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  transition: all 0.3s ease; 
+}
+
+.book:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+  border: 2px solid red; 
+}
+.book-img-container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-details {
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.book-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 0.4rem;
+}
+
+.book-rating p {
+  color: #666;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.book-cost {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.book-rating img {
+  height: 1.25rem;
+}
+
+#loader-circle {
+  margin: auto;
+  border: 5px solid var(--accent);
+  border-radius: 50%;
+  border-top: 5px solid hsl(0, 85%, 95%);
+  width: 50px;
+  height: 50px;
+  animation: spinner 1s linear infinite;
+}
